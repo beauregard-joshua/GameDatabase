@@ -15,16 +15,19 @@ public:
 };
 
 class DiscJamPS4 : public DiscJam {
+public:
 	DiscJamPS4();
 	~DiscJamPS4();
 };
 
 class DiscJamSteam : public DiscJam {
+public:
 	DiscJamSteam();
 	~DiscJamSteam();
 };
 
 class DiscJamSwitch : public DiscJam {
+public:
 	DiscJamSwitch();
 	~DiscJamSwitch();
 };
