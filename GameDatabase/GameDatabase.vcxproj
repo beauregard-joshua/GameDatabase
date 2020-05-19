@@ -115,6 +115,42 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Browser.h" />
+    <ClInclude Include="Date.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameExpansion.h" />
+    <ClInclude Include="GameMode.h" />
+    <ClInclude Include="Josh.h" />
+    <ClInclude Include="PC.h" />
+    <ClInclude Include="Platform.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Playstation4.h" />
+    <ClInclude Include="Purchaseable.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Steam.h" />
+    <ClInclude Include="Survival.h" />
+    <ClInclude Include="SurvivalArena.h" />
+    <ClInclude Include="TeamDeathmatch.h" />
+    <ClInclude Include="Uncharted4.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Browser.cpp" />
+    <ClCompile Include="Date.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameExpansion.cpp" />
+    <ClCompile Include="GameMode.cpp" />
+    <ClCompile Include="Josh.cpp" />
+    <ClCompile Include="PC.cpp" />
+    <ClCompile Include="Platform.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Playstation4.cpp" />
+    <ClCompile Include="Purchaseable.cpp" />
+    <ClCompile Include="Resource.cpp" />
+    <ClCompile Include="Steam.cpp" />
+    <ClCompile Include="Survival.cpp" />
+    <ClCompile Include="SurvivalArena.cpp" />
+    <ClCompile Include="TeamDeathmatch.cpp" />
+    <ClCompile Include="Uncharted4.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

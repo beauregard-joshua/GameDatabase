@@ -13,5 +13,129 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="components">
+      <UniqueIdentifier>{573eb15a-1d48-4e34-adeb-e07f4eb66067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="players">
+      <UniqueIdentifier>{0206279e-e2a4-4e89-b642-da13c1026033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platforms">
+      <UniqueIdentifier>{1db4a2e6-7235-496c-9806-e54ad878f417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="games">
+      <UniqueIdentifier>{77a9fee6-44e9-4489-a841-5f7d3f599d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="games\Uncharted4">
+      <UniqueIdentifier>{d5912db4-b20b-4f8a-9c2b-5d8f727e7e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="games\Uncharted4\gameModes">
+      <UniqueIdentifier>{b9e85389-d76d-4eb2-9b4e-c4f219923fdf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="Purchaseable.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMode.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameExpansion.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="Josh.h">
+      <Filter>players</Filter>
+    </ClInclude>
+    <ClInclude Include="Playstation4.h">
+      <Filter>platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="PC.h">
+      <Filter>platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam.h">
+      <Filter>platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Browser.h">
+      <Filter>platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Uncharted4.h">
+      <Filter>games\Uncharted4</Filter>
+    </ClInclude>
+    <ClInclude Include="Survival.h">
+      <Filter>games\Uncharted4\gameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="SurvivalArena.h">
+      <Filter>games\Uncharted4\gameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="TeamDeathmatch.h">
+      <Filter>games\Uncharted4\gameModes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Date.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameExpansion.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMode.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="Purchaseable.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="Josh.cpp">
+      <Filter>players</Filter>
+    </ClCompile>
+    <ClCompile Include="Playstation4.cpp">
+      <Filter>platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="PC.cpp">
+      <Filter>platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Steam.cpp">
+      <Filter>platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Browser.cpp">
+      <Filter>platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Uncharted4.cpp">
+      <Filter>games\Uncharted4</Filter>
+    </ClCompile>
+    <ClCompile Include="Survival.cpp">
+      <Filter>games\Uncharted4\gameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="SurvivalArena.cpp">
+      <Filter>games\Uncharted4\gameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="TeamDeathmatch.cpp">
+      <Filter>games\Uncharted4\gameModes</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
