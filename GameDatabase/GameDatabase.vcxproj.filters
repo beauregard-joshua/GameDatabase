@@ -31,6 +31,12 @@
     <Filter Include="games\Uncharted4\gameModes">
       <UniqueIdentifier>{b9e85389-d76d-4eb2-9b4e-c4f219923fdf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="games\DiscJam">
+      <UniqueIdentifier>{b342b9a9-f31b-4e5c-9588-e7b934425200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="games\DiscJam\gameModes">
+      <UniqueIdentifier>{4d17e32f-c8bf-4238-8baa-55a5a5b83ca3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Resource.h">
@@ -57,9 +63,6 @@
     <ClInclude Include="Date.h">
       <Filter>components</Filter>
     </ClInclude>
-    <ClInclude Include="Josh.h">
-      <Filter>players</Filter>
-    </ClInclude>
     <ClInclude Include="Playstation4.h">
       <Filter>platforms</Filter>
     </ClInclude>
@@ -83,6 +86,24 @@
     </ClInclude>
     <ClInclude Include="TeamDeathmatch.h">
       <Filter>games\Uncharted4\gameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscJam.h">
+      <Filter>games\DiscJam</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformHeader.h">
+      <Filter>platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHeader.h">
+      <Filter>games</Filter>
+    </ClInclude>
+    <ClInclude Include="Switch.h">
+      <Filter>platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Versus.h">
+      <Filter>games\DiscJam\gameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscDodge.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -136,6 +157,18 @@
     </ClCompile>
     <ClCompile Include="TeamDeathmatch.cpp">
       <Filter>games\Uncharted4\gameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscJam.cpp">
+      <Filter>games\DiscJam</Filter>
+    </ClCompile>
+    <ClCompile Include="Switch.cpp">
+      <Filter>platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Versus.cpp">
+      <Filter>games\DiscJam\gameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscDodge.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

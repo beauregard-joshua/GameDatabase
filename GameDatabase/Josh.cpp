@@ -1,19 +1,23 @@
-#include "Josh.h"
-#include "Playstation4.h"
-#include "PC.h"
-#include "Browser.h"
-#include "Steam.h"
-#include "Uncharted4.h"
+#pragma once
+#include "Player.h"
+#include "PlatformHeader.h"
+#include "GameHeader.h"
 
+class Josh : public Player {
+public:
+	Josh();
+	~Josh();
+};
 
 Josh::Josh() : Player() {
 	this->ownsPlatform(Playstation4())
 		.ownsPlatform(PC())
 		.ownsPlatform(Browser())
 		.ownsPlatform(Steam())
+		.ownsPlatform(Switch())
+		.ownsGame(DiscJam())
 		.ownsGame(Uncharted4());
 }
-
 
 Josh::~Josh() {
 }
