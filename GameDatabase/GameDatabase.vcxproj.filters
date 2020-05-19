@@ -103,7 +103,7 @@
       <Filter>games\DiscJam\gameModes</Filter>
     </ClInclude>
     <ClInclude Include="DiscDodge.h">
-      <Filter>Header Files</Filter>
+      <Filter>games\DiscJam\gameModes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -168,7 +168,7 @@
       <Filter>games\DiscJam\gameModes</Filter>
     </ClCompile>
     <ClCompile Include="DiscDodge.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>games\DiscJam\gameModes</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
