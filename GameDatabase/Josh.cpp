@@ -16,6 +16,7 @@ Josh::Josh() : Player() {
 		.ownsPlatform(Steam())
 		.ownsPlatform(Switch())
 		.ownsGame(DiscJamPS4())
+		.ownsGame(DotA2())
 		.ownsGame(Uncharted4());
 }
 

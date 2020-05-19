@@ -37,6 +37,9 @@
     <Filter Include="games\DiscJam\gameModes">
       <UniqueIdentifier>{4d17e32f-c8bf-4238-8baa-55a5a5b83ca3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="games\DotA2">
+      <UniqueIdentifier>{7c46e712-2b4e-446c-a8db-19b3e7719c3d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Resource.h">
@@ -105,6 +108,9 @@
     <ClInclude Include="DiscDodge.h">
       <Filter>games\DiscJam\gameModes</Filter>
     </ClInclude>
+    <ClInclude Include="DotA2.h">
+      <Filter>games\DotA2</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Date.cpp">
@@ -169,6 +175,9 @@
     </ClCompile>
     <ClCompile Include="DiscDodge.cpp">
       <Filter>games\DiscJam\gameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="DotA2.cpp">
+      <Filter>games\DotA2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -119,6 +119,7 @@
     <ClInclude Include="Date.h" />
     <ClInclude Include="DiscDodge.h" />
     <ClInclude Include="DiscJam.h" />
+    <ClInclude Include="DotA2.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameExpansion.h" />
     <ClInclude Include="GameHeader.h" />
@@ -143,6 +144,7 @@
     <ClCompile Include="Date.cpp" />
     <ClCompile Include="DiscDodge.cpp" />
     <ClCompile Include="DiscJam.cpp" />
+    <ClCompile Include="DotA2.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameExpansion.cpp" />
     <ClCompile Include="GameMode.cpp" />
