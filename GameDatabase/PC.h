@@ -1,9 +1,7 @@
 #pragma once
 #include "Platform.h"
 
-// A PC platform includes all games that do not satisfy the following two criteria:
-// (1) Purchaseable on Steam
-// (2) Browser playable
+// PC is the platform for Windows based machines
 class PC : public Platform {
 public:
 	PC();

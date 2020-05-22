@@ -10,13 +10,16 @@ public:
 };
 
 Josh::Josh() : Player() {
-	this->ownsPlatform(Playstation4())
+	this->ownsPlatform(Browser())
+		.ownsPlatform(iOS())
+		.ownsPlatform(Mac())
 		.ownsPlatform(PC())
-		.ownsPlatform(Browser())
-		.ownsPlatform(Steam())
+		.ownsPlatform(Playstation4())
 		.ownsPlatform(Switch())
 		.ownsGame(DiscJamPS4())
 		.ownsGame(DotA2())
+		.ownsGame(DotAUnderlordsPC())
+		.ownsGame(DotAUnderlordsMac())
 		.ownsGame(Uncharted4());
 }
 
