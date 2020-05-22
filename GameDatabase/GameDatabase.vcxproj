@@ -115,15 +115,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Android.h" />
     <ClInclude Include="Browser.h" />
     <ClInclude Include="Date.h" />
     <ClInclude Include="DiscDodge.h" />
     <ClInclude Include="DiscJam.h" />
     <ClInclude Include="DotA2.h" />
+    <ClInclude Include="DotAUnderlords.h" />
+    <ClInclude Include="Duos.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameExpansion.h" />
     <ClInclude Include="GameHeader.h" />
     <ClInclude Include="GameMode.h" />
+    <ClInclude Include="iOS.h" />
+    <ClInclude Include="Knockout.h" />
+    <ClInclude Include="Mac.h" />
     <ClInclude Include="PC.h" />
     <ClInclude Include="Platform.h" />
     <ClInclude Include="PlatformHeader.h" />
@@ -131,7 +137,7 @@
     <ClInclude Include="Playstation4.h" />
     <ClInclude Include="Purchaseable.h" />
     <ClInclude Include="Resource.h" />
-    <ClInclude Include="Steam.h" />
+    <ClInclude Include="Standard.h" />
     <ClInclude Include="Survival.h" />
     <ClInclude Include="SurvivalArena.h" />
     <ClInclude Include="Switch.h" />
@@ -140,22 +146,28 @@
     <ClInclude Include="Versus.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Android.cpp" />
     <ClCompile Include="Browser.cpp" />
     <ClCompile Include="Date.cpp" />
     <ClCompile Include="DiscDodge.cpp" />
     <ClCompile Include="DiscJam.cpp" />
     <ClCompile Include="DotA2.cpp" />
+    <ClCompile Include="DotAUnderlords.cpp" />
+    <ClCompile Include="Duos.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameExpansion.cpp" />
     <ClCompile Include="GameMode.cpp" />
+    <ClCompile Include="iOS.cpp" />
     <ClCompile Include="Josh.cpp" />
+    <ClCompile Include="Knockout.cpp" />
+    <ClCompile Include="Mac.cpp" />
     <ClCompile Include="PC.cpp" />
     <ClCompile Include="Platform.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Playstation4.cpp" />
     <ClCompile Include="Purchaseable.cpp" />
     <ClCompile Include="Resource.cpp" />
-    <ClCompile Include="Steam.cpp" />
+    <ClCompile Include="Standard.cpp" />
     <ClCompile Include="Survival.cpp" />
     <ClCompile Include="SurvivalArena.cpp" />
     <ClCompile Include="Switch.cpp" />

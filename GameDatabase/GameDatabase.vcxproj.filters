@@ -40,6 +40,12 @@
     <Filter Include="games\DotA2">
       <UniqueIdentifier>{7c46e712-2b4e-446c-a8db-19b3e7719c3d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="games\DotAUnderlords">
+      <UniqueIdentifier>{f87006f5-e79b-43dc-b09a-0b3e593ed210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="games\DotAUnderlords\gameModes">
+      <UniqueIdentifier>{6a41ee41-aac5-4838-abb2-fb9d8c595248}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Resource.h">
@@ -70,9 +76,6 @@
       <Filter>platforms</Filter>
     </ClInclude>
     <ClInclude Include="PC.h">
-      <Filter>platforms</Filter>
-    </ClInclude>
-    <ClInclude Include="Steam.h">
       <Filter>platforms</Filter>
     </ClInclude>
     <ClInclude Include="Browser.h">
@@ -111,6 +114,27 @@
     <ClInclude Include="DotA2.h">
       <Filter>games\DotA2</Filter>
     </ClInclude>
+    <ClInclude Include="Android.h">
+      <Filter>platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="iOS.h">
+      <Filter>platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Duos.h">
+      <Filter>games\DotAUnderlords\gameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="Knockout.h">
+      <Filter>games\DotAUnderlords\gameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="Standard.h">
+      <Filter>games\DotAUnderlords\gameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="DotAUnderlords.h">
+      <Filter>games\DotAUnderlords</Filter>
+    </ClInclude>
+    <ClInclude Include="Mac.h">
+      <Filter>platforms</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Date.cpp">
@@ -146,9 +170,6 @@
     <ClCompile Include="PC.cpp">
       <Filter>platforms</Filter>
     </ClCompile>
-    <ClCompile Include="Steam.cpp">
-      <Filter>platforms</Filter>
-    </ClCompile>
     <ClCompile Include="Browser.cpp">
       <Filter>platforms</Filter>
     </ClCompile>
@@ -178,6 +199,27 @@
     </ClCompile>
     <ClCompile Include="DotA2.cpp">
       <Filter>games\DotA2</Filter>
+    </ClCompile>
+    <ClCompile Include="Android.cpp">
+      <Filter>platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="iOS.cpp">
+      <Filter>platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Duos.cpp">
+      <Filter>games\DotAUnderlords\gameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="Knockout.cpp">
+      <Filter>games\DotAUnderlords\gameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard.cpp">
+      <Filter>games\DotAUnderlords\gameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="DotAUnderlords.cpp">
+      <Filter>games\DotAUnderlords</Filter>
+    </ClCompile>
+    <ClCompile Include="Mac.cpp">
+      <Filter>platforms</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
